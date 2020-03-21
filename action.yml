@@ -1,0 +1,14 @@
+name: 'Docker image tag'
+description: 'Generate docker image'
+inputs:
+  docker-registry-base-name:
+    description: 'Base name of docker registry'
+    required: true
+outputs:
+  docker-image-branch: # id of output
+    description: 'Docker image name with branch'
+  docker-image-branch-sha:
+    description: 'Docker image name with branch and short sha'
+runs:
+  using: 'node12'
+  main: 'index.js'
