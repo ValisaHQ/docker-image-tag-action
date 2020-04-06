@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ValisaHQ/docker-image-tag-action.git"
+    "url": "git+https://github.com/ectoflow/docker-image-tag-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ValisaHQ/docker-image-tag-action/issues"
+    "url": "https://github.com/ectoflow/docker-image-tag-action/issues"
   },
-  "homepage": "https://github.com/ValisaHQ/docker-image-tag-action#readme",
+  "homepage": "https://github.com/ectoflow/docker-image-tag-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.3"
   }
