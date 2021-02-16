@@ -9,6 +9,10 @@ outputs:
     description: 'Docker image name with branch'
   docker-image-branch-sha:
     description: 'Docker image name with branch and short sha'
+  docker-sanitized-branch-name:
+    description: 'Sanitized branch name for use as docker tag'
+  docker-sanitized-branch-name-sha:
+    description: 'Sanitized branch name with short sha for use as docker tag'
 runs:
   using: 'node12'
   main: 'index.js'
